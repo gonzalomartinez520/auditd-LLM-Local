@@ -1,0 +1,13 @@
+## Reglas de auditoria para el proyecto A2
+## Arquitectura amd64
+
+## Registrar ejecucion de programas
+-a always,exit -F arch=b64 -S execve,execveat -k a2_exec
+
+## Vigilar accesos a archivos sensibles
+-w /etc/passwd -p r -k a2_file_access
+-w /etc/shadow -p r -k a2_file_access
+
+## Vigilar modificaciones de la configuracion sudo
+-w /etc/sudoers -p wa -k a2_config_access
+-w /etc/sudoers.d/ -p wa -k a2_config_access
