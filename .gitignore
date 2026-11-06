@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Datos y registros locales
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Resultados experimentales locales
+results/*
+!results/.gitkeep
+
+# Evidencias
+evidencias/*
+!evidencias/.gitkeep
+
+# Configuración local
+.env
+*.log
