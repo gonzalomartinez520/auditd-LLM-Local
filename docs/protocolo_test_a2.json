@@ -1,0 +1,101 @@
+{
+  "proyecto": "TP Final A2",
+  "estado": "CONGELADO_ANTES_DE_TEST",
+  "commit_fuente": "d529a7996658b6632031f58063b154112df908f4",
+  "ollama_version": "0.40.16",
+  "modelos": {
+    "qwen3:0.6b": {
+      "id": "7df6b6e09427",
+      "prompt": "few_shot_fijo",
+      "f1_dev_148": 0.4737
+    },
+    "gemma3:1b": {
+      "id": "97558784bdc9",
+      "prompt": "few_shot_fijo",
+      "f1_dev_148": 0.3234
+    }
+  },
+  "opciones": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 4096,
+    "num_predict": 256
+  },
+  "esquema_respuesta": {
+    "type": "object",
+    "properties": {
+      "amenaza": {
+        "type": "boolean"
+      },
+      "nivel": {
+        "type": "string",
+        "enum": [
+          "INFO",
+          "BAJO",
+          "MEDIO",
+          "ALTO"
+        ]
+      },
+      "tipo": {
+        "type": "string",
+        "enum": [
+          "actividad_normal",
+          "anomalia_operativa",
+          "autenticacion",
+          "reconocimiento",
+          "anomalia_privilegios",
+          "acceso_sensible",
+          "modificacion_configuracion",
+          "otro"
+        ]
+      },
+      "explicacion": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "amenaza",
+      "nivel",
+      "tipo",
+      "explicacion"
+    ],
+    "additionalProperties": false
+  },
+  "formato_entrada": "parser_propio_normalizado",
+  "ejemplos": {
+    "ids": [
+      "1794757388.778:776",
+      "1794759743.393:1619",
+      "1794774470.010:11880"
+    ],
+    "sha256_textos": {
+      "1794757388.778:776": "bbbb353d5611e3c4a1b20d2425b92f941a84a788e89e48801db8e291e16a4586",
+      "1794759743.393:1619": "9a185e855d6a1a82e3e7db373f29d70e0cd1fa5860b0890a194e7df35c553f86",
+      "1794774470.010:11880": "f05ae0dc8f0be3870b9491f8ff34c9f59c3e2eb8b59744b0cbc05d803cba20bb"
+    }
+  },
+  "protocolo_dev": {
+    "eventos_comparados": 148,
+    "sha256_archivo": "d82ac467493cd03b6e0a1e5b0f7da0d484a4ff8db3a239290ff864d0d4dee4aa"
+  },
+  "dataset_referencia": {
+    "sha256_etiquetas": "b8966f4eff7dd16d7720a19020299a548fd3a0a2447619264fe6ebd46a2fb1e1"
+  },
+  "sha256_codigo": {
+    "src/config_llm_a2.py": "315c135efd2d3da8ded3346fb99f1f31e66274b8fbc46bdac241f5876124769a",
+    "src/prompts_llm.py": "30396e3afc89753843c317d350b1ec52cd032c0644c2f26288064fb435263f64",
+    "src/prompts_fewshot_fijo.py": "63d04e2f13adbbcc6df58a54e24a2891fab54de5688636b075d9c08186fe39f2",
+    "src/clasificador_regex.py": "454990d98c25dc3dce57b76cb19140a3606c777cc71a62c5da5f3a172cc24335",
+    "src/clasificador_regex_multiclase.py": "d66491b4b66d5d1b2b2ca128c685b6f3affadfff632a8db5cc8231482e2666ca"
+  },
+  "evaluacion_test": {
+    "eventos_esperados": 361,
+    "corridas_por_clasificador": 3,
+    "clasificadores": [
+      "regex_multiclase",
+      "qwen3:0.6b",
+      "gemma3:1b"
+    ],
+    "seleccion_prompts": "f1_binario_dev"
+  }
+}
