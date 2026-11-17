@@ -146,17 +146,37 @@ def normalizar_registro(registro):
             if valor is not None:
                 partes.append(f"{campo}={valor}")
 
+
     elif tipo.startswith("USER_") or tipo in {
         "CRED_ACQ", "CRED_DISP", "CRED_REFR",
         "LOGIN",
     }:
-        for campo in CAMPOS_AUTENTICACION:
-            valor = obtener_campo(registro, campo)
+        # Los eventos de PAM pueden incluir campos
+        # dentro de msg='...' y valores como res=failed'.
+        # Extraer solo valores conocidos y seguros.
 
-            if valor is not None:
-                # Evitar incorporar mensajes arbitrarios.
-                if re.fullmatch(r"[A-Za-z0-9_.:/-]+", valor):
-                    partes.append(f"{campo}={valor}")
+        patron_resultado = re.search(
+            r"(?<![A-Za-z0-9_])res=['\"]?"
+            r"(success|failed|yes|no)"
+            r"(?=$|[\s'\"\x1d])",
+            registro,
+            flags=re.IGNORECASE,
+        )
+
+        if patron_resultado:
+            resultado = patron_resultado.group(1).lower()
+            partes.append(f"res={resultado}")
+
+        patron_operacion = re.search(
+            r"(?<![A-Za-z0-9_])op=['\"]?"
+            r"([A-Za-z0-9_.:/-]+)",
+            registro,
+        )
+
+        if patron_operacion:
+            operacion = patron_operacion.group(1)
+            partes.append(f"op={operacion}")
+
 
     elif tipo == "ANOM_ABEND":
         for campo in ("sig", "comm", "exe"):
