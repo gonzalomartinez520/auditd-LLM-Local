@@ -1,0 +1,35 @@
+{
+    "archivo_origen": "data/raw/normal/audit.log",
+    "lineas_totales": 9443,
+    "lineas_sin_identificador": 0,
+    "lineas_fuera_de_intervalos": 8518,
+    "eventos_unicos": 276,
+    "eventos_con_syscall": 171,
+    "eventos_por_captura": {
+        "primera_captura": 186,
+        "segunda_captura": 90
+    },
+    "lineas_por_captura": {
+        "primera_captura": 627,
+        "segunda_captura": 298
+    },
+    "tipos_de_registro": {
+        "CWD": 161,
+        "EXECVE": 63,
+        "PATH": 242,
+        "PROCTITLE": 171,
+        "SYSCALL": 171,
+        "SERVICE_START": 15,
+        "SERVICE_STOP": 16,
+        "USER_ACCT": 10,
+        "CRED_ACQ": 10,
+        "LOGIN": 10,
+        "USER_START": 10,
+        "CRED_REFR": 10,
+        "CRED_DISP": 10,
+        "USER_END": 10,
+        "ANOM_ABEND": 2,
+        "BPF": 12,
+        "BPRM_FCAPS": 2
+    }
+}

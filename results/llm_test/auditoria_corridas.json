@@ -1,0 +1,103 @@
+{
+  "eventos_esperados": 361,
+  "modelos": {
+    "qwen3:0.6b": {
+      "corridas": {
+        "1": {
+          "eventos": 361,
+          "invalidos": 0,
+          "tiempo_medio_s": 8.369990889523468,
+          "tiempo_total_s": 3021.651440589001,
+          "ram_pico_mib": 43.484375,
+          "tokens_entrada_max": 1195,
+          "tokens_salida_max": 96
+        },
+        "2": {
+          "eventos": 361,
+          "invalidos": 0,
+          "tiempo_medio_s": 8.505571551947229,
+          "tiempo_total_s": 3070.5967899669995,
+          "ram_pico_mib": 1104.7578125,
+          "tokens_entrada_max": 1195,
+          "tokens_salida_max": 96
+        },
+        "3": {
+          "eventos": 361,
+          "invalidos": 0,
+          "tiempo_medio_s": 8.867793841975066,
+          "tiempo_total_s": 3201.3519481069998,
+          "ram_pico_mib": 1103.14453125,
+          "tokens_entrada_max": 1195,
+          "tokens_salida_max": 96
+        }
+      },
+      "concordancia_pares": {
+        "1-2": {
+          "iguales": 361,
+          "porcentaje": 100.0
+        },
+        "1-3": {
+          "iguales": 361,
+          "porcentaje": 100.0
+        },
+        "2-3": {
+          "iguales": 361,
+          "porcentaje": 100.0
+        }
+      },
+      "eventos_clasificacion_variable": 0,
+      "eventos_nivel_variable": 0,
+      "eventos_amenaza_variable": 0,
+      "ejemplos_diferencias": []
+    },
+    "gemma3:1b": {
+      "corridas": {
+        "1": {
+          "eventos": 361,
+          "invalidos": 0,
+          "tiempo_medio_s": 5.097196759263141,
+          "tiempo_total_s": 1840.167383345,
+          "ram_pico_mib": 1067.47265625,
+          "tokens_entrada_max": 1191,
+          "tokens_salida_max": 66
+        },
+        "2": {
+          "eventos": 361,
+          "invalidos": 0,
+          "tiempo_medio_s": 5.097375782534632,
+          "tiempo_total_s": 1840.2275706159999,
+          "ram_pico_mib": 1067.76953125,
+          "tokens_entrada_max": 1191,
+          "tokens_salida_max": 66
+        },
+        "3": {
+          "eventos": 361,
+          "invalidos": 0,
+          "tiempo_medio_s": 5.082688493734034,
+          "tiempo_total_s": 1834.9281996989994,
+          "ram_pico_mib": 1067.44140625,
+          "tokens_entrada_max": 1191,
+          "tokens_salida_max": 66
+        }
+      },
+      "concordancia_pares": {
+        "1-2": {
+          "iguales": 361,
+          "porcentaje": 100.0
+        },
+        "1-3": {
+          "iguales": 361,
+          "porcentaje": 100.0
+        },
+        "2-3": {
+          "iguales": 361,
+          "porcentaje": 100.0
+        }
+      },
+      "eventos_clasificacion_variable": 0,
+      "eventos_nivel_variable": 0,
+      "eventos_amenaza_variable": 0,
+      "ejemplos_diferencias": []
+    }
+  }
+}

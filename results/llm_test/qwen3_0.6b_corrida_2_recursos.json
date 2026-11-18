@@ -1,0 +1,13 @@
+{
+  "modelo": "qwen3:0.6b",
+  "corrida": 2,
+  "hash_config": "bde84111ca1e595783459770c13079ec9be52319fb15305106749c8285962b7d",
+  "eventos": 361,
+  "tiempo_ejecucion_s": 3070.5967899669995,
+  "ram_pico_rss_ollama_bytes": 1158422528,
+  "ram_pico_rss_ollama_mib": 1104.7578125,
+  "metodo_ram": "Muestreo cada 100 ms de la suma de VmRSS de los procesos ollama y llama-server identificados mediante /proc. La memoria compartida puede contabilizarse mas de una vez.",
+  "invalidos": 0,
+  "contexto_marcado": 0,
+  "salidas_limitadas": 0
+}

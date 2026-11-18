@@ -1,0 +1,11 @@
+repeticion,variante,archivo,operacion,inicio_utc,fin_utc,exit_code,validacion_ok,resultado_esperado,amenaza,nivel
+1,E4a,/etc/sudoers.d/a2_e4a_prueba,escritura_autorizada,2026-11-15T19:12:10.698872+00:00,2026-11-15T19:12:10.709922+00:00,0,1,1,0,INFO
+2,E4a,/etc/sudoers.d/a2_e4a_prueba,escritura_autorizada,2026-11-15T19:12:12.779522+00:00,2026-11-15T19:12:12.790281+00:00,0,1,1,0,INFO
+3,E4a,/etc/sudoers.d/a2_e4a_prueba,escritura_autorizada,2026-11-15T19:12:14.139716+00:00,2026-11-15T19:12:14.150320+00:00,0,1,1,0,INFO
+4,E4a,/etc/sudoers.d/a2_e4a_prueba,escritura_autorizada,2026-11-15T19:12:17.211774+00:00,2026-11-15T19:12:17.222561+00:00,0,1,1,0,INFO
+5,E4a,/etc/sudoers.d/a2_e4a_prueba,escritura_autorizada,2026-11-15T19:12:20.408883+00:00,2026-11-15T19:12:20.419502+00:00,0,1,1,0,INFO
+6,E4a,/etc/sudoers.d/a2_e4a_prueba,escritura_autorizada,2026-11-15T19:12:24.017345+00:00,2026-11-15T19:12:24.589906+00:00,0,1,1,0,INFO
+7,E4a,/etc/sudoers.d/a2_e4a_prueba,escritura_autorizada,2026-11-15T19:12:27.665723+00:00,2026-11-15T19:12:27.675788+00:00,0,1,1,0,INFO
+8,E4a,/etc/sudoers.d/a2_e4a_prueba,escritura_autorizada,2026-11-15T19:12:29.719587+00:00,2026-11-15T19:12:29.738842+00:00,0,1,1,0,INFO
+9,E4a,/etc/sudoers.d/a2_e4a_prueba,escritura_autorizada,2026-11-15T19:12:34.971384+00:00,2026-11-15T19:12:34.981855+00:00,0,1,1,0,INFO
+10,E4a,/etc/sudoers.d/a2_e4a_prueba,escritura_autorizada,2026-11-15T19:12:48.882146+00:00,2026-11-15T19:12:48.892770+00:00,0,1,1,0,INFO

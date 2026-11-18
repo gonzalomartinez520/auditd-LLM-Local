@@ -1,0 +1,21 @@
+repeticion,variante,tipo_prueba,usuario_contexto,comando,inicio_utc,fin_utc,exit_code,uid_observado,uid_esperado,resultado_esperado,naturaleza
+1,E3b,servicio,www-data,sudo -n runuser -u www-data -- /usr/bin/bash -c '/usr/bin/id -u',2026-11-15T17:58:52.235690+00:00,2026-11-15T17:58:52.252299+00:00,0,33,33,1,simulacion_comparativa
+1,E3b,root_controlado,www-data,sudo -n /usr/bin/bash -c '/usr/bin/id -u',2026-11-15T17:58:52.252393+00:00,2026-11-15T17:58:52.264490+00:00,0,0,0,1,simulacion_comparativa
+2,E3b,servicio,daemon,sudo -n runuser -u daemon -- /usr/bin/sh -c '/usr/bin/id -u',2026-11-15T17:58:54.294139+00:00,2026-11-15T17:58:54.310744+00:00,0,1,1,1,simulacion_comparativa
+2,E3b,root_controlado,daemon,sudo -n /usr/bin/sh -c '/usr/bin/id -u',2026-11-15T17:58:54.310820+00:00,2026-11-15T17:58:54.321888+00:00,0,0,0,1,simulacion_comparativa
+3,E3b,servicio,nobody,sudo -n runuser -u nobody -- /usr/bin/bash -c '/usr/bin/id -u',2026-11-15T17:58:57.323393+00:00,2026-11-15T17:58:57.339664+00:00,0,65534,65534,1,simulacion_comparativa
+3,E3b,root_controlado,nobody,sudo -n /usr/bin/bash -c '/usr/bin/id -u',2026-11-15T17:58:57.339747+00:00,2026-11-15T17:58:57.351655+00:00,0,0,0,1,simulacion_comparativa
+4,E3b,servicio,www-data,sudo -n runuser -u www-data -- /usr/bin/sh -c '/usr/bin/id -u',2026-11-15T17:58:58.353473+00:00,2026-11-15T17:58:58.369888+00:00,0,33,33,1,simulacion_comparativa
+4,E3b,root_controlado,www-data,sudo -n /usr/bin/sh -c '/usr/bin/id -u',2026-11-15T17:58:58.369958+00:00,2026-11-15T17:58:58.381600+00:00,0,0,0,1,simulacion_comparativa
+5,E3b,servicio,daemon,sudo -n runuser -u daemon -- /usr/bin/bash -c '/usr/bin/id -u',2026-11-15T17:59:02.398302+00:00,2026-11-15T17:59:02.416617+00:00,0,1,1,1,simulacion_comparativa
+5,E3b,root_controlado,daemon,sudo -n /usr/bin/bash -c '/usr/bin/id -u',2026-11-15T17:59:02.416695+00:00,2026-11-15T17:59:02.428897+00:00,0,0,0,1,simulacion_comparativa
+6,E3b,servicio,nobody,sudo -n runuser -u nobody -- /usr/bin/sh -c '/usr/bin/id -u',2026-11-15T17:59:04.431436+00:00,2026-11-15T17:59:04.448606+00:00,0,65534,65534,1,simulacion_comparativa
+6,E3b,root_controlado,nobody,sudo -n /usr/bin/sh -c '/usr/bin/id -u',2026-11-15T17:59:04.448679+00:00,2026-11-15T17:59:04.460603+00:00,0,0,0,1,simulacion_comparativa
+7,E3b,servicio,www-data,sudo -n runuser -u www-data -- /usr/bin/bash -c '/usr/bin/id -u',2026-11-15T17:59:08.106413+00:00,2026-11-15T17:59:08.124073+00:00,0,33,33,1,simulacion_comparativa
+7,E3b,root_controlado,www-data,sudo -n /usr/bin/bash -c '/usr/bin/id -u',2026-11-15T17:59:08.124148+00:00,2026-11-15T17:59:08.136392+00:00,0,0,0,1,simulacion_comparativa
+8,E3b,servicio,daemon,sudo -n runuser -u daemon -- /usr/bin/sh -c '/usr/bin/id -u',2026-11-15T17:59:09.161046+00:00,2026-11-15T17:59:09.178066+00:00,0,1,1,1,simulacion_comparativa
+8,E3b,root_controlado,daemon,sudo -n /usr/bin/sh -c '/usr/bin/id -u',2026-11-15T17:59:09.178137+00:00,2026-11-15T17:59:09.189987+00:00,0,0,0,1,simulacion_comparativa
+9,E3b,servicio,nobody,sudo -n runuser -u nobody -- /usr/bin/bash -c '/usr/bin/id -u',2026-11-15T17:59:13.483823+00:00,2026-11-15T17:59:13.500677+00:00,0,65534,65534,1,simulacion_comparativa
+9,E3b,root_controlado,nobody,sudo -n /usr/bin/bash -c '/usr/bin/id -u',2026-11-15T17:59:13.500751+00:00,2026-11-15T17:59:13.512652+00:00,0,0,0,1,simulacion_comparativa
+10,E3b,servicio,www-data,sudo -n runuser -u www-data -- /usr/bin/sh -c '/usr/bin/id -u',2026-11-15T17:59:17.306886+00:00,2026-11-15T17:59:17.323448+00:00,0,33,33,1,simulacion_comparativa
+10,E3b,root_controlado,www-data,sudo -n /usr/bin/sh -c '/usr/bin/id -u',2026-11-15T17:59:17.323526+00:00,2026-11-15T17:59:17.335652+00:00,0,0,0,1,simulacion_comparativa

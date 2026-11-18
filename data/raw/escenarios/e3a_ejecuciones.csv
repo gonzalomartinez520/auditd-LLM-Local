@@ -1,0 +1,11 @@
+repeticion,variante,usuario_ejecutor,comando,inicio_utc,fin_utc,duracion_segundos,exit_code,amenaza,nivel_esperado
+1,E3a,gonzalo520,sudo -n /usr/bin/apt-get update,2026-11-15T17:18:53.563179+00:00,2026-11-15T17:18:56.114053+00:00,2.551,0,0,INFO
+2,E3a,gonzalo520,sudo -n /usr/bin/apt update,2026-11-15T17:18:59.205292+00:00,2026-11-15T17:19:02.037960+00:00,2.833,0,0,INFO
+3,E3a,gonzalo520,sudo -n /usr/bin/apt-get update -q,2026-11-15T17:19:05.490320+00:00,2026-11-15T17:19:08.031472+00:00,2.541,0,0,INFO
+4,E3a,gonzalo520,sudo -n /usr/bin/apt-get update -qq,2026-11-15T17:19:12.009581+00:00,2026-11-15T17:19:14.548122+00:00,2.539,0,0,INFO
+5,E3a,gonzalo520,sudo -n /usr/bin/apt-get update -o APT::Get::List-Cleanup=1,2026-11-15T17:19:18.979961+00:00,2026-11-15T17:19:21.497609+00:00,2.518,0,0,INFO
+6,E3a,gonzalo520,sudo -n /usr/bin/apt-get update -o Acquire::Retries=0,2026-11-15T17:19:23.510072+00:00,2026-11-15T17:19:28.330551+00:00,4.82,0,0,INFO
+7,E3a,gonzalo520,sudo -n /usr/bin/apt update -q,2026-11-15T17:19:32.084912+00:00,2026-11-15T17:19:34.866399+00:00,2.781,0,0,INFO
+8,E3a,gonzalo520,sudo -n /usr/bin/apt-get update -o Acquire::Languages=none,2026-11-15T17:19:36.932131+00:00,2026-11-15T17:19:39.258128+00:00,2.326,0,0,INFO
+9,E3a,gonzalo520,sudo -n /usr/bin/apt-get update -q -o Acquire::Retries=0,2026-11-15T17:19:40.691201+00:00,2026-11-15T17:19:46.673675+00:00,5.982,0,0,INFO
+10,E3a,gonzalo520,sudo -n /usr/bin/apt-get update,2026-11-15T17:19:50.679862+00:00,2026-11-15T17:19:53.915368+00:00,3.236,0,0,INFO

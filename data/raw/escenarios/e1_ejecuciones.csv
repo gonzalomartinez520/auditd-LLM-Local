@@ -1,0 +1,11 @@
+repeticion,variante,usuario_ejecutor,usuario_consultado,comando,ruta_objetivo,inicio_utc,fin_utc,pid_lanzador,exit_code,amenaza,nivel_esperado
+1,E1,gonzalo520,root,getent passwd root,/etc/passwd,2026-11-15T15:42:48.799694+00:00,2026-11-15T15:42:48.836722+00:00,1063,0,0,INFO
+2,E1,nobody,root,id root,/etc/passwd,2026-11-15T15:43:05.606994+00:00,2026-11-15T15:43:05.614741+00:00,1065,0,0,INFO
+3,E1,root,,ls -l /etc/passwd,/etc/passwd,2026-11-15T15:43:08.773701+00:00,2026-11-15T15:43:08.780453+00:00,1067,0,0,INFO
+4,E1,daemon,nobody,getent passwd nobody,/etc/passwd,2026-11-15T15:43:09.929931+00:00,2026-11-15T15:43:09.937830+00:00,1069,0,0,INFO
+5,E1,gonzalo520,daemon,id daemon,/etc/passwd,2026-11-15T15:43:14.053791+00:00,2026-11-15T15:43:14.061833+00:00,1072,0,0,INFO
+6,E1,nobody,,ls -l /etc/./passwd,/etc/passwd,2026-11-15T15:43:24.269210+00:00,2026-11-15T15:43:24.275941+00:00,1074,0,0,INFO
+7,E1,root,daemon,getent passwd daemon,/etc/passwd,2026-11-15T15:43:28.762775+00:00,2026-11-15T15:43:28.770066+00:00,1076,0,0,INFO
+8,E1,daemon,nobody,id nobody,/etc/passwd,2026-11-15T15:43:37.018002+00:00,2026-11-15T15:43:37.026158+00:00,1078,0,0,INFO
+9,E1,gonzalo520,,ls -l /etc/../etc/passwd,/etc/passwd,2026-11-15T15:43:39.808084+00:00,2026-11-15T15:43:39.815857+00:00,1080,0,0,INFO
+10,E1,nobody,root,getent passwd root,/etc/passwd,2026-11-15T15:44:06.243272+00:00,2026-11-15T15:44:06.249447+00:00,1082,0,0,INFO

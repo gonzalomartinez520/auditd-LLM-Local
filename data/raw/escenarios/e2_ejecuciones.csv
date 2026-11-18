@@ -1,0 +1,31 @@
+repeticion,variante,accion,usuario_ejecutor,comando,inicio_utc,fin_utc,exit_code,resultado_esperado,amenaza_secuencia,nivel_esperado_secuencia
+1,E2,sudo,nobody,/usr/bin/sudo -n -l,2026-11-15T16:22:23.384299+00:00,2026-11-15T16:22:23.395909+00:00,1,1,1,MEDIO
+1,E2,su,nobody,/usr/bin/timeout 6s /usr/bin/su -c /usr/bin/id root,2026-11-15T16:22:24.539147+00:00,2026-11-15T16:22:25.837385+00:00,1,1,1,MEDIO
+1,E2,find,nobody,/usr/bin/find /usr/bin -xdev -type f -perm /4000 -print,2026-11-15T16:22:26.343197+00:00,2026-11-15T16:22:26.353182+00:00,0,1,1,MEDIO
+2,E2,find,daemon,/usr/bin/find /usr/sbin -xdev -type f -perm /4000 -print,2026-11-15T16:22:28.854365+00:00,2026-11-15T16:22:28.862484+00:00,0,1,1,MEDIO
+2,E2,sudo,daemon,/usr/bin/sudo -n -l,2026-11-15T16:22:29.363241+00:00,2026-11-15T16:22:29.374470+00:00,1,1,1,MEDIO
+2,E2,su,daemon,/usr/bin/timeout 6s /usr/bin/su -c /usr/bin/id root,2026-11-15T16:22:29.877208+00:00,2026-11-15T16:22:31.904846+00:00,1,1,1,MEDIO
+3,E2,sudo,nobody,/usr/bin/sudo -n -l,2026-11-15T16:22:37.524758+00:00,2026-11-15T16:22:37.535352+00:00,1,1,1,MEDIO
+3,E2,find,nobody,/usr/bin/find /usr/bin /usr/sbin -xdev -type f -perm /4000 -print,2026-11-15T16:22:38.087352+00:00,2026-11-15T16:22:38.099116+00:00,0,1,1,MEDIO
+3,E2,su,nobody,/usr/bin/timeout 6s /usr/bin/su -c /usr/bin/id root,2026-11-15T16:22:38.877926+00:00,2026-11-15T16:22:39.910500+00:00,1,1,1,MEDIO
+4,E2,find,daemon,/usr/bin/find /bin -xdev -type f -perm /4000 -print,2026-11-15T16:22:41.414177+00:00,2026-11-15T16:22:41.421231+00:00,0,1,1,MEDIO
+4,E2,su,daemon,/usr/bin/timeout 6s /usr/bin/su -c /usr/bin/id root,2026-11-15T16:22:41.937993+00:00,2026-11-15T16:22:43.166613+00:00,1,1,1,MEDIO
+4,E2,sudo,daemon,/usr/bin/sudo -n -l,2026-11-15T16:22:43.672628+00:00,2026-11-15T16:22:43.684118+00:00,1,1,1,MEDIO
+5,E2,su,nobody,/usr/bin/timeout 6s /usr/bin/su -c /usr/bin/id root,2026-11-15T16:22:48.232961+00:00,2026-11-15T16:22:49.250326+00:00,1,1,1,MEDIO
+5,E2,sudo,nobody,/usr/bin/sudo -n -l,2026-11-15T16:22:49.757851+00:00,2026-11-15T16:22:49.768695+00:00,1,1,1,MEDIO
+5,E2,find,nobody,/usr/bin/find /sbin -xdev -type f -perm /4000 -print,2026-11-15T16:22:50.283757+00:00,2026-11-15T16:22:50.289891+00:00,0,1,1,MEDIO
+6,E2,sudo,daemon,/usr/bin/sudo -n -l,2026-11-15T16:22:52.800264+00:00,2026-11-15T16:22:52.811202+00:00,1,1,1,MEDIO
+6,E2,su,daemon,/usr/bin/timeout 6s /usr/bin/su -c /usr/bin/id root,2026-11-15T16:22:53.313069+00:00,2026-11-15T16:22:57.893646+00:00,1,1,1,MEDIO
+6,E2,find,daemon,/usr/bin/find /usr/bin -xdev -type f -perm /4000 -print,2026-11-15T16:22:58.399029+00:00,2026-11-15T16:22:58.408797+00:00,0,1,1,MEDIO
+7,E2,find,nobody,/usr/bin/find /usr/sbin -xdev -type f -perm /4000 -print,2026-11-15T16:23:01.939525+00:00,2026-11-15T16:23:01.947162+00:00,0,1,1,MEDIO
+7,E2,sudo,nobody,/usr/bin/sudo -n -l,2026-11-15T16:23:02.486099+00:00,2026-11-15T16:23:02.496393+00:00,1,1,1,MEDIO
+7,E2,su,nobody,/usr/bin/timeout 6s /usr/bin/su -c /usr/bin/id root,2026-11-15T16:23:38.839077+00:00,2026-11-15T16:23:39.860079+00:00,1,1,1,MEDIO
+8,E2,sudo,daemon,/usr/bin/sudo -n -l,2026-11-15T16:23:57.364266+00:00,2026-11-15T16:23:57.375806+00:00,1,1,1,MEDIO
+8,E2,find,daemon,/usr/bin/find /usr/bin /usr/sbin -xdev -type f -perm /4000 -print,2026-11-15T16:23:57.916342+00:00,2026-11-15T16:23:57.928882+00:00,0,1,1,MEDIO
+8,E2,su,daemon,/usr/bin/timeout 6s /usr/bin/su -c /usr/bin/id root,2026-11-15T16:23:58.805186+00:00,2026-11-15T16:24:00.128095+00:00,1,1,1,MEDIO
+9,E2,find,nobody,/usr/bin/find /bin -xdev -type f -perm /4000 -print,2026-11-15T16:24:03.855202+00:00,2026-11-15T16:24:03.861895+00:00,0,1,1,MEDIO
+9,E2,su,nobody,/usr/bin/timeout 6s /usr/bin/su -c /usr/bin/id root,2026-11-15T16:24:04.363857+00:00,2026-11-15T16:24:08.656103+00:00,1,1,1,MEDIO
+9,E2,sudo,nobody,/usr/bin/sudo -n -l,2026-11-15T16:24:09.159100+00:00,2026-11-15T16:24:09.169605+00:00,1,1,1,MEDIO
+10,E2,su,daemon,/usr/bin/timeout 6s /usr/bin/su -c /usr/bin/id root,2026-11-15T16:24:11.678379+00:00,2026-11-15T16:24:14.211772+00:00,1,1,1,MEDIO
+10,E2,sudo,daemon,/usr/bin/sudo -n -l,2026-11-15T16:24:14.859057+00:00,2026-11-15T16:24:14.870464+00:00,1,1,1,MEDIO
+10,E2,find,daemon,/usr/bin/find /sbin -xdev -type f -perm /4000 -print,2026-11-15T16:24:15.382817+00:00,2026-11-15T16:24:15.389622+00:00,0,1,1,MEDIO

@@ -1,0 +1,180 @@
+{
+  "configuracion": {
+    "modelo": "gemma3:1b",
+    "estrategia": "chain_of_thought",
+    "opciones": {
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 4096,
+      "num_predict": 256
+    },
+    "formato": {
+      "type": "object",
+      "properties": {
+        "amenaza": {
+          "type": "boolean"
+        },
+        "nivel": {
+          "type": "string",
+          "enum": [
+            "INFO",
+            "BAJO",
+            "MEDIO",
+            "ALTO"
+          ]
+        },
+        "tipo": {
+          "type": "string",
+          "enum": [
+            "actividad_normal",
+            "anomalia_operativa",
+            "autenticacion",
+            "reconocimiento",
+            "anomalia_privilegios",
+            "acceso_sensible",
+            "modificacion_configuracion",
+            "otro"
+          ]
+        },
+        "explicacion": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "amenaza",
+        "nivel",
+        "tipo",
+        "explicacion"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "hash_config": "c5265e7218225119b9254b271cb7a009a54d70fd8699286e5f16e49860e9e6f5",
+  "metricas": {
+    "total": 158,
+    "TP": 6,
+    "TN": 12,
+    "FP_penalizado": 113,
+    "FN_penalizado": 27,
+    "invalidos": 116,
+    "tasa_invalidos": 0.7341772151898734,
+    "precision_penalizada": 0.05042016806722689,
+    "recall_penalizado": 0.18181818181818182,
+    "f1_penalizado": 0.07894736842105264,
+    "accuracy_penalizada": 0.11392405063291139,
+    "tiempo_medio_s": 7.192347265822785,
+    "tiempo_p95_s": 10.2448,
+    "matriz_niveles": {
+      "INFO": {
+        "INFO": 12,
+        "BAJO": 0,
+        "MEDIO": 2,
+        "ALTO": 21,
+        "INVALIDA": 90
+      },
+      "BAJO": {
+        "INFO": 0,
+        "BAJO": 0,
+        "MEDIO": 0,
+        "ALTO": 0,
+        "INVALIDA": 0
+      },
+      "MEDIO": {
+        "INFO": 0,
+        "BAJO": 0,
+        "MEDIO": 2,
+        "ALTO": 4,
+        "INVALIDA": 21
+      },
+      "ALTO": {
+        "INFO": 1,
+        "BAJO": 0,
+        "MEDIO": 0,
+        "ALTO": 0,
+        "INVALIDA": 5
+      }
+    }
+  },
+  "por_fuente": {
+    "E1": {
+      "eventos": 10,
+      "predicciones": {
+        "ALTO": 5,
+        "INVALIDA": 5
+      },
+      "f1_binario_penalizado": 0
+    },
+    "E2": {
+      "eventos": 15,
+      "predicciones": {
+        "INVALIDA": 15
+      },
+      "f1_binario_penalizado": 0
+    },
+    "E3a": {
+      "eventos": 6,
+      "predicciones": {
+        "ALTO": 3,
+        "INVALIDA": 3
+      },
+      "f1_binario_penalizado": 0
+    },
+    "E3b_ataque": {
+      "eventos": 12,
+      "predicciones": {
+        "INVALIDA": 6,
+        "ALTO": 4,
+        "MEDIO": 2
+      },
+      "f1_binario_penalizado": 0.6666666666666666
+    },
+    "E3b_control": {
+      "eventos": 12,
+      "predicciones": {
+        "INVALIDA": 5,
+        "ALTO": 5,
+        "MEDIO": 2
+      },
+      "f1_binario_penalizado": 0
+    },
+    "E4a": {
+      "eventos": 3,
+      "predicciones": {
+        "INVALIDA": 3
+      },
+      "f1_binario_penalizado": 0
+    },
+    "E4b": {
+      "eventos": 3,
+      "predicciones": {
+        "INFO": 1,
+        "INVALIDA": 2
+      },
+      "f1_binario_penalizado": 0
+    },
+    "E5a": {
+      "eventos": 12,
+      "predicciones": {
+        "INVALIDA": 12
+      },
+      "f1_binario_penalizado": 0
+    },
+    "E5b": {
+      "eventos": 3,
+      "predicciones": {
+        "INVALIDA": 3
+      },
+      "f1_binario_penalizado": 0
+    },
+    "NORMAL": {
+      "eventos": 82,
+      "predicciones": {
+        "INVALIDA": 62,
+        "INFO": 12,
+        "ALTO": 8
+      },
+      "f1_binario_penalizado": 0
+    }
+  },
+  "advertencia": "Las respuestas invalidas se penalizan como errores. FP/FN incluyen penalizacion y no equivalen exclusivamente a predicciones de la clase contraria."
+}

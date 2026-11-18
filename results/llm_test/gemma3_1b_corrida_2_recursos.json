@@ -1,0 +1,13 @@
+{
+  "modelo": "gemma3:1b",
+  "corrida": 2,
+  "hash_config": "8401c605d535fd38a4972cc329f8f60cf6dd578834551bbd725ec22128ccaebb",
+  "eventos": 361,
+  "tiempo_ejecucion_s": 1840.2275706159999,
+  "ram_pico_rss_ollama_bytes": 1119637504,
+  "ram_pico_rss_ollama_mib": 1067.76953125,
+  "metodo_ram": "Muestreo cada 100 ms de la suma de VmRSS de los procesos ollama y llama-server identificados mediante /proc. La memoria compartida puede contabilizarse mas de una vez.",
+  "invalidos": 0,
+  "contexto_marcado": 0,
+  "salidas_limitadas": 0
+}

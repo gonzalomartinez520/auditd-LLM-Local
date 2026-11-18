@@ -1,0 +1,16 @@
+
+# TP Final A2 - Clasificacion de eventos auditd mediante LLM locales
+#
+# Dependencias Python:
+# Los scripts utilizan exclusivamente modulos de la biblioteca
+# estandar de Python 3. No requieren paquetes externos de pip.
+#
+# Requisitos del sistema, instalados por separado:
+# - Ubuntu Server 24.04 LTS
+# - Linux Audit (auditd, auditctl, ausearch, aureport)
+# - Ollama 0.40.16
+# - Modelo qwen3:0.6b
+# - Modelo gemma3:1b
+#
+# Consultar README.md para la instalacion y ejecucion.
+

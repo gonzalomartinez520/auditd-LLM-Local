@@ -1,0 +1,24 @@
+{
+  "total_eventos": 519,
+  "identificadores_unicos": 519,
+  "duplicados": 0,
+  "eventos_por_fuente": {
+    "NORMAL": 272,
+    "E1": 32,
+    "E2": 50,
+    "E3a": 20,
+    "E3b_control": 40,
+    "E3b_ataque": 40,
+    "E4a": 10,
+    "E4b": 10,
+    "E5a": 35,
+    "E5b": 10
+  },
+  "eventos_por_clase": {
+    "legitimos_referencia": 409,
+    "sospechosos_simulados": 110
+  },
+  "cantidad_grupos": 92,
+  "etiquetado": "contextual_experimental",
+  "normal_etiqueta": "provisional"
+}

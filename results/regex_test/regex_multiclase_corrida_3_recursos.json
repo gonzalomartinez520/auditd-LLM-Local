@@ -1,0 +1,15 @@
+{
+  "clasificador": "regex_multiclase",
+  "corrida": 3,
+  "hash_config": "af15027ca53553f8401b7e4797c69c4c2cf2f9b1586a7f51d1b0280980cf234e",
+  "eventos": 361,
+  "invalidos": 0,
+  "tiempo_ejecucion_s": 0.012496892000854132,
+  "tiempo_medio_s": 1.8537650969529087e-05,
+  "tiempo_p95_s": 2.9115e-05,
+  "ram_pico_rss_python_mib": 18.5,
+  "ram_pico_previo_mib": 18.5,
+  "metodo_ram": "Linux ru_maxrss: pico RSS del proceso Python completo, incluyendo interprete y clasificador. No representa memoria exclusiva de las reglas regex.",
+  "tokens_entrada": null,
+  "tokens_salida": null
+}

@@ -1,0 +1,493 @@
+{
+  "conjunto": "desarrollo",
+  "total_eventos": 148,
+  "criterio": "Mayor F1 binario penalizado; desempate por invalidos y latencia.",
+  "resultados": [
+    {
+      "modelo": "qwen3:0.6b",
+      "prompt": "zero_shot",
+      "total": 148,
+      "TP": 27,
+      "TN": 17,
+      "FP_penalizado": 104,
+      "FN_penalizado": 0,
+      "precision": 0.20610687022900764,
+      "recall": 1.0,
+      "f1_binario": 0.34177215189873417,
+      "f1_macro_presentes": 0.1876411913947103,
+      "invalidos": 0,
+      "tasa_invalidos": 0.0,
+      "tiempo_medio_s": 7.584602574324324,
+      "tiempo_p95_s": 9.951193
+    },
+    {
+      "modelo": "qwen3:0.6b",
+      "prompt": "few_shot_fijo",
+      "total": 148,
+      "TP": 18,
+      "TN": 90,
+      "FP_penalizado": 31,
+      "FN_penalizado": 9,
+      "precision": 0.3673469387755102,
+      "recall": 0.6666666666666666,
+      "f1_binario": 0.47368421052631576,
+      "f1_macro_presentes": 0.3923853923853924,
+      "invalidos": 0,
+      "tasa_invalidos": 0.0,
+      "tiempo_medio_s": 7.903993256756757,
+      "tiempo_p95_s": 11.064707
+    },
+    {
+      "modelo": "qwen3:0.6b",
+      "prompt": "chain_of_thought",
+      "total": 148,
+      "TP": 25,
+      "TN": 21,
+      "FP_penalizado": 100,
+      "FN_penalizado": 2,
+      "precision": 0.2,
+      "recall": 0.9259259259259259,
+      "f1_binario": 0.32894736842105265,
+      "f1_macro_presentes": 0.18510554420671613,
+      "invalidos": 3,
+      "tasa_invalidos": 0.02027027027027027,
+      "tiempo_medio_s": 12.566953445945947,
+      "tiempo_p95_s": 18.859097
+    },
+    {
+      "modelo": "gemma3:1b",
+      "prompt": "zero_shot",
+      "total": 148,
+      "TP": 0,
+      "TN": 15,
+      "FP_penalizado": 106,
+      "FN_penalizado": 27,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_binario": 0.0,
+      "f1_macro_presentes": 0.07352941176470588,
+      "invalidos": 128,
+      "tasa_invalidos": 0.8648648648648649,
+      "tiempo_medio_s": 5.824760905405405,
+      "tiempo_p95_s": 8.037925
+    },
+    {
+      "modelo": "gemma3:1b",
+      "prompt": "few_shot_fijo",
+      "total": 148,
+      "TP": 27,
+      "TN": 8,
+      "FP_penalizado": 113,
+      "FN_penalizado": 0,
+      "precision": 0.19285714285714287,
+      "recall": 1.0,
+      "f1_binario": 0.32335329341317365,
+      "f1_macro_presentes": 0.11333434252374422,
+      "invalidos": 0,
+      "tasa_invalidos": 0.0,
+      "tiempo_medio_s": 4.729156655405405,
+      "tiempo_p95_s": 5.868118
+    },
+    {
+      "modelo": "gemma3:1b",
+      "prompt": "chain_of_thought",
+      "total": 148,
+      "TP": 6,
+      "TN": 12,
+      "FP_penalizado": 109,
+      "FN_penalizado": 21,
+      "precision": 0.05217391304347826,
+      "recall": 0.2222222222222222,
+      "f1_binario": 0.08450704225352113,
+      "f1_macro_presentes": 0.11098354381936472,
+      "invalidos": 107,
+      "tasa_invalidos": 0.722972972972973,
+      "tiempo_medio_s": 7.1376667094594595,
+      "tiempo_p95_s": 10.2448
+    }
+  ],
+  "ganadores": {
+    "qwen3:0.6b": "few_shot_fijo",
+    "gemma3:1b": "few_shot_fijo"
+  },
+  "detalle": {
+    "qwen3:0.6b/zero_shot": {
+      "total": 148,
+      "TP": 27,
+      "TN": 17,
+      "FP_penalizado": 104,
+      "FN_penalizado": 0,
+      "precision": 0.20610687022900764,
+      "recall": 1.0,
+      "f1_binario": 0.34177215189873417,
+      "f1_macro_presentes": 0.1876411913947103,
+      "invalidos": 0,
+      "tasa_invalidos": 0.0,
+      "tiempo_medio_s": 7.584602574324324,
+      "tiempo_p95_s": 9.951193,
+      "f1_por_nivel": {
+        "INFO": {
+          "soporte": 121,
+          "f1": 0.2463768115942029
+        },
+        "BAJO": {
+          "soporte": 0,
+          "f1": 0.0
+        },
+        "MEDIO": {
+          "soporte": 22,
+          "f1": 0.31654676258992803
+        },
+        "ALTO": {
+          "soporte": 5,
+          "f1": 0.0
+        }
+      },
+      "matriz_niveles": {
+        "INFO": {
+          "INFO": 17,
+          "BAJO": 0,
+          "MEDIO": 90,
+          "ALTO": 14,
+          "INVALIDA": 0
+        },
+        "BAJO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 0,
+          "ALTO": 0,
+          "INVALIDA": 0
+        },
+        "MEDIO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 22,
+          "ALTO": 0,
+          "INVALIDA": 0
+        },
+        "ALTO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 5,
+          "ALTO": 0,
+          "INVALIDA": 0
+        }
+      }
+    },
+    "qwen3:0.6b/few_shot_fijo": {
+      "total": 148,
+      "TP": 18,
+      "TN": 90,
+      "FP_penalizado": 31,
+      "FN_penalizado": 9,
+      "precision": 0.3673469387755102,
+      "recall": 0.6666666666666666,
+      "f1_binario": 0.47368421052631576,
+      "f1_macro_presentes": 0.3923853923853924,
+      "invalidos": 0,
+      "tasa_invalidos": 0.0,
+      "tiempo_medio_s": 7.903993256756757,
+      "tiempo_p95_s": 11.064707,
+      "f1_por_nivel": {
+        "INFO": {
+          "soporte": 121,
+          "f1": 0.8181818181818182
+        },
+        "BAJO": {
+          "soporte": 0,
+          "f1": 0.0
+        },
+        "MEDIO": {
+          "soporte": 22,
+          "f1": 0.16666666666666666
+        },
+        "ALTO": {
+          "soporte": 5,
+          "f1": 0.19230769230769232
+        }
+      },
+      "matriz_niveles": {
+        "INFO": {
+          "INFO": 90,
+          "BAJO": 0,
+          "MEDIO": 0,
+          "ALTO": 31,
+          "INVALIDA": 0
+        },
+        "BAJO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 0,
+          "ALTO": 0,
+          "INVALIDA": 0
+        },
+        "MEDIO": {
+          "INFO": 9,
+          "BAJO": 0,
+          "MEDIO": 2,
+          "ALTO": 11,
+          "INVALIDA": 0
+        },
+        "ALTO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 0,
+          "ALTO": 5,
+          "INVALIDA": 0
+        }
+      }
+    },
+    "qwen3:0.6b/chain_of_thought": {
+      "total": 148,
+      "TP": 25,
+      "TN": 21,
+      "FP_penalizado": 100,
+      "FN_penalizado": 2,
+      "precision": 0.2,
+      "recall": 0.9259259259259259,
+      "f1_binario": 0.32894736842105265,
+      "f1_macro_presentes": 0.18510554420671613,
+      "invalidos": 3,
+      "tasa_invalidos": 0.02027027027027027,
+      "tiempo_medio_s": 12.566953445945947,
+      "tiempo_p95_s": 18.859097,
+      "f1_por_nivel": {
+        "INFO": {
+          "soporte": 121,
+          "f1": 0.29577464788732394
+        },
+        "BAJO": {
+          "soporte": 0,
+          "f1": 0.0
+        },
+        "MEDIO": {
+          "soporte": 22,
+          "f1": 0.2595419847328244
+        },
+        "ALTO": {
+          "soporte": 5,
+          "f1": 0.0
+        }
+      },
+      "matriz_niveles": {
+        "INFO": {
+          "INFO": 21,
+          "BAJO": 0,
+          "MEDIO": 88,
+          "ALTO": 11,
+          "INVALIDA": 1
+        },
+        "BAJO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 0,
+          "ALTO": 0,
+          "INVALIDA": 0
+        },
+        "MEDIO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 17,
+          "ALTO": 4,
+          "INVALIDA": 1
+        },
+        "ALTO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 4,
+          "ALTO": 0,
+          "INVALIDA": 1
+        }
+      }
+    },
+    "gemma3:1b/zero_shot": {
+      "total": 148,
+      "TP": 0,
+      "TN": 15,
+      "FP_penalizado": 106,
+      "FN_penalizado": 27,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_binario": 0.0,
+      "f1_macro_presentes": 0.07352941176470588,
+      "invalidos": 128,
+      "tasa_invalidos": 0.8648648648648649,
+      "tiempo_medio_s": 5.824760905405405,
+      "tiempo_p95_s": 8.037925,
+      "f1_por_nivel": {
+        "INFO": {
+          "soporte": 121,
+          "f1": 0.22058823529411764
+        },
+        "BAJO": {
+          "soporte": 0,
+          "f1": 0.0
+        },
+        "MEDIO": {
+          "soporte": 22,
+          "f1": 0.0
+        },
+        "ALTO": {
+          "soporte": 5,
+          "f1": 0.0
+        }
+      },
+      "matriz_niveles": {
+        "INFO": {
+          "INFO": 15,
+          "BAJO": 0,
+          "MEDIO": 5,
+          "ALTO": 0,
+          "INVALIDA": 101
+        },
+        "BAJO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 0,
+          "ALTO": 0,
+          "INVALIDA": 0
+        },
+        "MEDIO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 0,
+          "ALTO": 0,
+          "INVALIDA": 22
+        },
+        "ALTO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 0,
+          "ALTO": 0,
+          "INVALIDA": 5
+        }
+      }
+    },
+    "gemma3:1b/few_shot_fijo": {
+      "total": 148,
+      "TP": 27,
+      "TN": 8,
+      "FP_penalizado": 113,
+      "FN_penalizado": 0,
+      "precision": 0.19285714285714287,
+      "recall": 1.0,
+      "f1_binario": 0.32335329341317365,
+      "f1_macro_presentes": 0.11333434252374422,
+      "invalidos": 0,
+      "tasa_invalidos": 0.0,
+      "tiempo_medio_s": 4.729156655405405,
+      "tiempo_p95_s": 5.868118,
+      "f1_por_nivel": {
+        "INFO": {
+          "soporte": 121,
+          "f1": 0.12403100775193798
+        },
+        "BAJO": {
+          "soporte": 0,
+          "f1": 0.0
+        },
+        "MEDIO": {
+          "soporte": 22,
+          "f1": 0.1095890410958904
+        },
+        "ALTO": {
+          "soporte": 5,
+          "f1": 0.10638297872340426
+        }
+      },
+      "matriz_niveles": {
+        "INFO": {
+          "INFO": 8,
+          "BAJO": 0,
+          "MEDIO": 47,
+          "ALTO": 66,
+          "INVALIDA": 0
+        },
+        "BAJO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 0,
+          "ALTO": 0,
+          "INVALIDA": 0
+        },
+        "MEDIO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 4,
+          "ALTO": 18,
+          "INVALIDA": 0
+        },
+        "ALTO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 0,
+          "ALTO": 5,
+          "INVALIDA": 0
+        }
+      }
+    },
+    "gemma3:1b/chain_of_thought": {
+      "total": 148,
+      "TP": 6,
+      "TN": 12,
+      "FP_penalizado": 109,
+      "FN_penalizado": 21,
+      "precision": 0.05217391304347826,
+      "recall": 0.2222222222222222,
+      "f1_binario": 0.08450704225352113,
+      "f1_macro_presentes": 0.11098354381936472,
+      "invalidos": 107,
+      "tasa_invalidos": 0.722972972972973,
+      "tiempo_medio_s": 7.1376667094594595,
+      "tiempo_p95_s": 10.2448,
+      "f1_por_nivel": {
+        "INFO": {
+          "soporte": 121,
+          "f1": 0.1791044776119403
+        },
+        "BAJO": {
+          "soporte": 0,
+          "f1": 0.0
+        },
+        "MEDIO": {
+          "soporte": 22,
+          "f1": 0.15384615384615385
+        },
+        "ALTO": {
+          "soporte": 5,
+          "f1": 0.0
+        }
+      },
+      "matriz_niveles": {
+        "INFO": {
+          "INFO": 12,
+          "BAJO": 0,
+          "MEDIO": 2,
+          "ALTO": 20,
+          "INVALIDA": 87
+        },
+        "BAJO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 0,
+          "ALTO": 0,
+          "INVALIDA": 0
+        },
+        "MEDIO": {
+          "INFO": 0,
+          "BAJO": 0,
+          "MEDIO": 2,
+          "ALTO": 4,
+          "INVALIDA": 16
+        },
+        "ALTO": {
+          "INFO": 1,
+          "BAJO": 0,
+          "MEDIO": 0,
+          "ALTO": 0,
+          "INVALIDA": 4
+        }
+      }
+    }
+  }
+}

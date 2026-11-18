@@ -1,0 +1,22 @@
+=========================================================================
+ TP FINAL A2 - RESUMEN GENERAL DE ESCENARIOS
+=========================================================================
+Escenario      Descripcion                             Eventos
+-------------------------------------------------------------------------
+E1             Consultas legitimas                          32
+E2             Comprobaciones de privilegios                50
+E3a            Administracion legitima                      20
+E3b_control    Controles de privilegios                     40
+E3b_ataque     Simulacion de privilegios                    40
+E4a            Modificacion legitima                        10
+E4b            Modificacion simulada                        10
+E5a            Lectura legitima                             35
+E5b            Lectura sospechosa simulada                  10
+-------------------------------------------------------------------------
+TOTAL                                                      247
+=========================================================================
+
+Archivos JSONL analizados: 9
+Eventos correlacionados: 247
+Variantes completadas: 8 de 8
+VALIDACION GENERAL: OK

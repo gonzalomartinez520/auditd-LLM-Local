@@ -1,0 +1,29 @@
+{
+    "archivo_origen": "data/raw/normal/audit.log",
+    "inicio_utc": "2026-11-06T21:07:12+00:00",
+    "fin_utc": "2026-11-06T22:10:03+00:00",
+    "lineas_totales": 6034,
+    "lineas_sin_identificador": 0,
+    "lineas_fuera_del_intervalo": 5407,
+    "eventos_unicos": 186,
+    "eventos_con_syscall": 117,
+    "tipos_de_registro": {
+        "SYSCALL": 117,
+        "EXECVE": 42,
+        "CWD": 110,
+        "PATH": 164,
+        "PROCTITLE": 117,
+        "SERVICE_START": 10,
+        "SERVICE_STOP": 10,
+        "USER_ACCT": 7,
+        "CRED_ACQ": 7,
+        "LOGIN": 7,
+        "USER_START": 7,
+        "CRED_REFR": 7,
+        "CRED_DISP": 7,
+        "USER_END": 7,
+        "ANOM_ABEND": 1,
+        "BPF": 6,
+        "BPRM_FCAPS": 1
+    }
+}

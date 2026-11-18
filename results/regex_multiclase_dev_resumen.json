@@ -1,0 +1,142 @@
+{
+  "clasificador": "regex_multiclase",
+  "conjunto": "desarrollo",
+  "eventos": 158,
+  "matriz_niveles": {
+    "INFO": {
+      "INFO": 125,
+      "BAJO": 0,
+      "MEDIO": 0,
+      "ALTO": 0
+    },
+    "BAJO": {
+      "INFO": 0,
+      "BAJO": 0,
+      "MEDIO": 0,
+      "ALTO": 0
+    },
+    "MEDIO": {
+      "INFO": 6,
+      "BAJO": 0,
+      "MEDIO": 21,
+      "ALTO": 0
+    },
+    "ALTO": {
+      "INFO": 3,
+      "BAJO": 0,
+      "MEDIO": 0,
+      "ALTO": 3
+    }
+  },
+  "metricas_binarias": {
+    "TP": 24,
+    "TN": 125,
+    "FP": 0,
+    "FN": 9,
+    "precision": 1.0,
+    "recall": 0.7272727272727273,
+    "f1": 0.8421052631578948
+  },
+  "metricas_por_nivel": {
+    "INFO": {
+      "soporte": 125,
+      "precision": 0.9328358208955224,
+      "recall": 1.0,
+      "f1": 0.9652509652509652
+    },
+    "BAJO": {
+      "soporte": 0,
+      "precision": 0,
+      "recall": null,
+      "f1": 0
+    },
+    "MEDIO": {
+      "soporte": 27,
+      "precision": 1.0,
+      "recall": 0.7777777777777778,
+      "f1": 0.8750000000000001
+    },
+    "ALTO": {
+      "soporte": 6,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    }
+  },
+  "macro_f1_clases_presentes": 0.8356392106392107,
+  "tiempo_medio_s": 1.7762025316455696e-05,
+  "respuestas_invalidas": 0,
+  "por_fuente": {
+    "E1": {
+      "eventos": 10,
+      "niveles_predichos": {
+        "INFO": 10
+      },
+      "tipos_correctos": 10
+    },
+    "E2": {
+      "eventos": 15,
+      "niveles_predichos": {
+        "INFO": 6,
+        "MEDIO": 9
+      },
+      "tipos_correctos": 9
+    },
+    "E3a": {
+      "eventos": 6,
+      "niveles_predichos": {
+        "INFO": 6
+      },
+      "tipos_correctos": 6
+    },
+    "E3b_ataque": {
+      "eventos": 12,
+      "niveles_predichos": {
+        "MEDIO": 12
+      },
+      "tipos_correctos": 12
+    },
+    "E3b_control": {
+      "eventos": 12,
+      "niveles_predichos": {
+        "INFO": 12
+      },
+      "tipos_correctos": 12
+    },
+    "E4a": {
+      "eventos": 3,
+      "niveles_predichos": {
+        "INFO": 3
+      },
+      "tipos_correctos": 3
+    },
+    "E4b": {
+      "eventos": 3,
+      "niveles_predichos": {
+        "INFO": 3
+      },
+      "tipos_correctos": 0
+    },
+    "E5a": {
+      "eventos": 12,
+      "niveles_predichos": {
+        "INFO": 12
+      },
+      "tipos_correctos": 12
+    },
+    "E5b": {
+      "eventos": 3,
+      "niveles_predichos": {
+        "ALTO": 3
+      },
+      "tipos_correctos": 3
+    },
+    "NORMAL": {
+      "eventos": 82,
+      "niveles_predichos": {
+        "INFO": 82
+      },
+      "tipos_correctos": 82
+    }
+  }
+}

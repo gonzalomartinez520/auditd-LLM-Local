@@ -1,0 +1,1572 @@
+{
+  "eventos_test": 361,
+  "corridas_por_clasificador": 3,
+  "resultados": {
+    "regex_multiclase": {
+      "corridas": {
+        "1": {
+          "eventos": 361,
+          "TP": 56,
+          "TN": 284,
+          "FP_penalizado": 0,
+          "FN_penalizado": 21,
+          "precision": 1.0,
+          "recall": 0.7272727272727273,
+          "f1_binario": 0.8421052631578947,
+          "invalidos": 0,
+          "matriz_niveles": {
+            "INFO": {
+              "INFO": 284,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "BAJO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "MEDIO": {
+              "INFO": 14,
+              "BAJO": 0,
+              "MEDIO": 49,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "ALTO": {
+              "INFO": 7,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 7,
+              "INVALIDA": 0
+            }
+          },
+          "por_nivel": {
+            "INFO": {
+              "soporte": 284,
+              "precision": 0.9311475409836065,
+              "recall": 1.0,
+              "f1": 0.9643463497453311
+            },
+            "BAJO": {
+              "soporte": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": 0.0
+            },
+            "MEDIO": {
+              "soporte": 63,
+              "precision": 1.0,
+              "recall": 0.7777777777777778,
+              "f1": 0.875
+            },
+            "ALTO": {
+              "soporte": 14,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666
+            }
+          },
+          "macro_f1_clases_presentes": 0.8353376721373326,
+          "tiempo_medio_s": 1.8919130193905817e-05,
+          "tiempo_p95_s": 2.7601e-05,
+          "por_fuente": {
+            "E1": {
+              "eventos": 22,
+              "TP": 0,
+              "TN": 22,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E2": {
+              "eventos": 35,
+              "TP": 21,
+              "TN": 0,
+              "FP": 0,
+              "FN": 14,
+              "f1": 0.75
+            },
+            "E3a": {
+              "eventos": 14,
+              "TP": 0,
+              "TN": 14,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E3b_ataque": {
+              "eventos": 28,
+              "TP": 28,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E3b_control": {
+              "eventos": 28,
+              "TP": 0,
+              "TN": 28,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4a": {
+              "eventos": 7,
+              "TP": 0,
+              "TN": 7,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4b": {
+              "eventos": 7,
+              "TP": 0,
+              "TN": 0,
+              "FP": 0,
+              "FN": 7,
+              "f1": 0.0
+            },
+            "E5a": {
+              "eventos": 23,
+              "TP": 0,
+              "TN": 23,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E5b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "NORMAL": {
+              "eventos": 190,
+              "TP": 0,
+              "TN": 190,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            }
+          },
+          "texto_conocido": {
+            "eventos": 329,
+            "metricas": {
+              "TP": 56,
+              "TN": 252,
+              "FP_penalizado": 0,
+              "FN_penalizado": 21,
+              "f1_binario": 0.8421052631578947
+            }
+          },
+          "texto_nuevo": {
+            "eventos": 32,
+            "metricas": {
+              "TP": 0,
+              "TN": 32,
+              "FP_penalizado": 0,
+              "FN_penalizado": 0,
+              "f1_binario": 0.0
+            }
+          }
+        },
+        "2": {
+          "eventos": 361,
+          "TP": 56,
+          "TN": 284,
+          "FP_penalizado": 0,
+          "FN_penalizado": 21,
+          "precision": 1.0,
+          "recall": 0.7272727272727273,
+          "f1_binario": 0.8421052631578947,
+          "invalidos": 0,
+          "matriz_niveles": {
+            "INFO": {
+              "INFO": 284,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "BAJO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "MEDIO": {
+              "INFO": 14,
+              "BAJO": 0,
+              "MEDIO": 49,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "ALTO": {
+              "INFO": 7,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 7,
+              "INVALIDA": 0
+            }
+          },
+          "por_nivel": {
+            "INFO": {
+              "soporte": 284,
+              "precision": 0.9311475409836065,
+              "recall": 1.0,
+              "f1": 0.9643463497453311
+            },
+            "BAJO": {
+              "soporte": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": 0.0
+            },
+            "MEDIO": {
+              "soporte": 63,
+              "precision": 1.0,
+              "recall": 0.7777777777777778,
+              "f1": 0.875
+            },
+            "ALTO": {
+              "soporte": 14,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666
+            }
+          },
+          "macro_f1_clases_presentes": 0.8353376721373326,
+          "tiempo_medio_s": 1.917853462603878e-05,
+          "tiempo_p95_s": 2.7602e-05,
+          "por_fuente": {
+            "E1": {
+              "eventos": 22,
+              "TP": 0,
+              "TN": 22,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E2": {
+              "eventos": 35,
+              "TP": 21,
+              "TN": 0,
+              "FP": 0,
+              "FN": 14,
+              "f1": 0.75
+            },
+            "E3a": {
+              "eventos": 14,
+              "TP": 0,
+              "TN": 14,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E3b_ataque": {
+              "eventos": 28,
+              "TP": 28,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E3b_control": {
+              "eventos": 28,
+              "TP": 0,
+              "TN": 28,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4a": {
+              "eventos": 7,
+              "TP": 0,
+              "TN": 7,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4b": {
+              "eventos": 7,
+              "TP": 0,
+              "TN": 0,
+              "FP": 0,
+              "FN": 7,
+              "f1": 0.0
+            },
+            "E5a": {
+              "eventos": 23,
+              "TP": 0,
+              "TN": 23,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E5b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "NORMAL": {
+              "eventos": 190,
+              "TP": 0,
+              "TN": 190,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            }
+          },
+          "texto_conocido": {
+            "eventos": 329,
+            "metricas": {
+              "TP": 56,
+              "TN": 252,
+              "FP_penalizado": 0,
+              "FN_penalizado": 21,
+              "f1_binario": 0.8421052631578947
+            }
+          },
+          "texto_nuevo": {
+            "eventos": 32,
+            "metricas": {
+              "TP": 0,
+              "TN": 32,
+              "FP_penalizado": 0,
+              "FN_penalizado": 0,
+              "f1_binario": 0.0
+            }
+          }
+        },
+        "3": {
+          "eventos": 361,
+          "TP": 56,
+          "TN": 284,
+          "FP_penalizado": 0,
+          "FN_penalizado": 21,
+          "precision": 1.0,
+          "recall": 0.7272727272727273,
+          "f1_binario": 0.8421052631578947,
+          "invalidos": 0,
+          "matriz_niveles": {
+            "INFO": {
+              "INFO": 284,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "BAJO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "MEDIO": {
+              "INFO": 14,
+              "BAJO": 0,
+              "MEDIO": 49,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "ALTO": {
+              "INFO": 7,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 7,
+              "INVALIDA": 0
+            }
+          },
+          "por_nivel": {
+            "INFO": {
+              "soporte": 284,
+              "precision": 0.9311475409836065,
+              "recall": 1.0,
+              "f1": 0.9643463497453311
+            },
+            "BAJO": {
+              "soporte": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": 0.0
+            },
+            "MEDIO": {
+              "soporte": 63,
+              "precision": 1.0,
+              "recall": 0.7777777777777778,
+              "f1": 0.875
+            },
+            "ALTO": {
+              "soporte": 14,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666
+            }
+          },
+          "macro_f1_clases_presentes": 0.8353376721373326,
+          "tiempo_medio_s": 1.8537650969529087e-05,
+          "tiempo_p95_s": 2.9115e-05,
+          "por_fuente": {
+            "E1": {
+              "eventos": 22,
+              "TP": 0,
+              "TN": 22,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E2": {
+              "eventos": 35,
+              "TP": 21,
+              "TN": 0,
+              "FP": 0,
+              "FN": 14,
+              "f1": 0.75
+            },
+            "E3a": {
+              "eventos": 14,
+              "TP": 0,
+              "TN": 14,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E3b_ataque": {
+              "eventos": 28,
+              "TP": 28,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E3b_control": {
+              "eventos": 28,
+              "TP": 0,
+              "TN": 28,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4a": {
+              "eventos": 7,
+              "TP": 0,
+              "TN": 7,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4b": {
+              "eventos": 7,
+              "TP": 0,
+              "TN": 0,
+              "FP": 0,
+              "FN": 7,
+              "f1": 0.0
+            },
+            "E5a": {
+              "eventos": 23,
+              "TP": 0,
+              "TN": 23,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E5b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "NORMAL": {
+              "eventos": 190,
+              "TP": 0,
+              "TN": 190,
+              "FP": 0,
+              "FN": 0,
+              "f1": 0.0
+            }
+          },
+          "texto_conocido": {
+            "eventos": 329,
+            "metricas": {
+              "TP": 56,
+              "TN": 252,
+              "FP_penalizado": 0,
+              "FN_penalizado": 21,
+              "f1_binario": 0.8421052631578947
+            }
+          },
+          "texto_nuevo": {
+            "eventos": 32,
+            "metricas": {
+              "TP": 0,
+              "TN": 32,
+              "FP_penalizado": 0,
+              "FN_penalizado": 0,
+              "f1_binario": 0.0
+            }
+          }
+        }
+      },
+      "f1_media": 0.8421052631578947,
+      "f1_desviacion": 0.0
+    },
+    "qwen3:0.6b": {
+      "corridas": {
+        "1": {
+          "eventos": 361,
+          "TP": 68,
+          "TN": 215,
+          "FP_penalizado": 69,
+          "FN_penalizado": 9,
+          "precision": 0.49635036496350365,
+          "recall": 0.8831168831168831,
+          "f1_binario": 0.6355140186915887,
+          "invalidos": 0,
+          "matriz_niveles": {
+            "INFO": {
+              "INFO": 215,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 69,
+              "INVALIDA": 0
+            },
+            "BAJO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "MEDIO": {
+              "INFO": 9,
+              "BAJO": 0,
+              "MEDIO": 14,
+              "ALTO": 40,
+              "INVALIDA": 0
+            },
+            "ALTO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 14,
+              "INVALIDA": 0
+            }
+          },
+          "por_nivel": {
+            "INFO": {
+              "soporte": 284,
+              "precision": 0.9598214285714286,
+              "recall": 0.7570422535211268,
+              "f1": 0.8464566929133859
+            },
+            "BAJO": {
+              "soporte": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": 0.0
+            },
+            "MEDIO": {
+              "soporte": 63,
+              "precision": 1.0,
+              "recall": 0.2222222222222222,
+              "f1": 0.36363636363636365
+            },
+            "ALTO": {
+              "soporte": 14,
+              "precision": 0.11382113821138211,
+              "recall": 1.0,
+              "f1": 0.20437956204379562
+            }
+          },
+          "macro_f1_clases_presentes": 0.4714908728645151,
+          "tiempo_medio_s": 8.369990889523468,
+          "tiempo_p95_s": 11.917669603000832,
+          "por_fuente": {
+            "E1": {
+              "eventos": 22,
+              "TP": 0,
+              "TN": 9,
+              "FP": 13,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E2": {
+              "eventos": 35,
+              "TP": 35,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E3a": {
+              "eventos": 14,
+              "TP": 0,
+              "TN": 1,
+              "FP": 13,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E3b_ataque": {
+              "eventos": 28,
+              "TP": 19,
+              "TN": 0,
+              "FP": 0,
+              "FN": 9,
+              "f1": 0.8085106382978723
+            },
+            "E3b_control": {
+              "eventos": 28,
+              "TP": 0,
+              "TN": 17,
+              "FP": 11,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4a": {
+              "eventos": 7,
+              "TP": 0,
+              "TN": 0,
+              "FP": 7,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E5a": {
+              "eventos": 23,
+              "TP": 0,
+              "TN": 0,
+              "FP": 23,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E5b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "NORMAL": {
+              "eventos": 190,
+              "TP": 0,
+              "TN": 188,
+              "FP": 2,
+              "FN": 0,
+              "f1": 0.0
+            }
+          },
+          "texto_conocido": {
+            "eventos": 329,
+            "metricas": {
+              "TP": 68,
+              "TN": 199,
+              "FP_penalizado": 53,
+              "FN_penalizado": 9,
+              "f1_binario": 0.6868686868686869
+            }
+          },
+          "texto_nuevo": {
+            "eventos": 32,
+            "metricas": {
+              "TP": 0,
+              "TN": 16,
+              "FP_penalizado": 16,
+              "FN_penalizado": 0,
+              "f1_binario": 0.0
+            }
+          }
+        },
+        "2": {
+          "eventos": 361,
+          "TP": 68,
+          "TN": 215,
+          "FP_penalizado": 69,
+          "FN_penalizado": 9,
+          "precision": 0.49635036496350365,
+          "recall": 0.8831168831168831,
+          "f1_binario": 0.6355140186915887,
+          "invalidos": 0,
+          "matriz_niveles": {
+            "INFO": {
+              "INFO": 215,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 69,
+              "INVALIDA": 0
+            },
+            "BAJO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "MEDIO": {
+              "INFO": 9,
+              "BAJO": 0,
+              "MEDIO": 14,
+              "ALTO": 40,
+              "INVALIDA": 0
+            },
+            "ALTO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 14,
+              "INVALIDA": 0
+            }
+          },
+          "por_nivel": {
+            "INFO": {
+              "soporte": 284,
+              "precision": 0.9598214285714286,
+              "recall": 0.7570422535211268,
+              "f1": 0.8464566929133859
+            },
+            "BAJO": {
+              "soporte": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": 0.0
+            },
+            "MEDIO": {
+              "soporte": 63,
+              "precision": 1.0,
+              "recall": 0.2222222222222222,
+              "f1": 0.36363636363636365
+            },
+            "ALTO": {
+              "soporte": 14,
+              "precision": 0.11382113821138211,
+              "recall": 1.0,
+              "f1": 0.20437956204379562
+            }
+          },
+          "macro_f1_clases_presentes": 0.4714908728645151,
+          "tiempo_medio_s": 8.505571551947229,
+          "tiempo_p95_s": 12.15233846299816,
+          "por_fuente": {
+            "E1": {
+              "eventos": 22,
+              "TP": 0,
+              "TN": 9,
+              "FP": 13,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E2": {
+              "eventos": 35,
+              "TP": 35,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E3a": {
+              "eventos": 14,
+              "TP": 0,
+              "TN": 1,
+              "FP": 13,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E3b_ataque": {
+              "eventos": 28,
+              "TP": 19,
+              "TN": 0,
+              "FP": 0,
+              "FN": 9,
+              "f1": 0.8085106382978723
+            },
+            "E3b_control": {
+              "eventos": 28,
+              "TP": 0,
+              "TN": 17,
+              "FP": 11,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4a": {
+              "eventos": 7,
+              "TP": 0,
+              "TN": 0,
+              "FP": 7,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E5a": {
+              "eventos": 23,
+              "TP": 0,
+              "TN": 0,
+              "FP": 23,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E5b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "NORMAL": {
+              "eventos": 190,
+              "TP": 0,
+              "TN": 188,
+              "FP": 2,
+              "FN": 0,
+              "f1": 0.0
+            }
+          },
+          "texto_conocido": {
+            "eventos": 329,
+            "metricas": {
+              "TP": 68,
+              "TN": 199,
+              "FP_penalizado": 53,
+              "FN_penalizado": 9,
+              "f1_binario": 0.6868686868686869
+            }
+          },
+          "texto_nuevo": {
+            "eventos": 32,
+            "metricas": {
+              "TP": 0,
+              "TN": 16,
+              "FP_penalizado": 16,
+              "FN_penalizado": 0,
+              "f1_binario": 0.0
+            }
+          }
+        },
+        "3": {
+          "eventos": 361,
+          "TP": 68,
+          "TN": 215,
+          "FP_penalizado": 69,
+          "FN_penalizado": 9,
+          "precision": 0.49635036496350365,
+          "recall": 0.8831168831168831,
+          "f1_binario": 0.6355140186915887,
+          "invalidos": 0,
+          "matriz_niveles": {
+            "INFO": {
+              "INFO": 215,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 69,
+              "INVALIDA": 0
+            },
+            "BAJO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "MEDIO": {
+              "INFO": 9,
+              "BAJO": 0,
+              "MEDIO": 14,
+              "ALTO": 40,
+              "INVALIDA": 0
+            },
+            "ALTO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 14,
+              "INVALIDA": 0
+            }
+          },
+          "por_nivel": {
+            "INFO": {
+              "soporte": 284,
+              "precision": 0.9598214285714286,
+              "recall": 0.7570422535211268,
+              "f1": 0.8464566929133859
+            },
+            "BAJO": {
+              "soporte": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": 0.0
+            },
+            "MEDIO": {
+              "soporte": 63,
+              "precision": 1.0,
+              "recall": 0.2222222222222222,
+              "f1": 0.36363636363636365
+            },
+            "ALTO": {
+              "soporte": 14,
+              "precision": 0.11382113821138211,
+              "recall": 1.0,
+              "f1": 0.20437956204379562
+            }
+          },
+          "macro_f1_clases_presentes": 0.4714908728645151,
+          "tiempo_medio_s": 8.867793841975066,
+          "tiempo_p95_s": 12.441965379000067,
+          "por_fuente": {
+            "E1": {
+              "eventos": 22,
+              "TP": 0,
+              "TN": 9,
+              "FP": 13,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E2": {
+              "eventos": 35,
+              "TP": 35,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E3a": {
+              "eventos": 14,
+              "TP": 0,
+              "TN": 1,
+              "FP": 13,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E3b_ataque": {
+              "eventos": 28,
+              "TP": 19,
+              "TN": 0,
+              "FP": 0,
+              "FN": 9,
+              "f1": 0.8085106382978723
+            },
+            "E3b_control": {
+              "eventos": 28,
+              "TP": 0,
+              "TN": 17,
+              "FP": 11,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4a": {
+              "eventos": 7,
+              "TP": 0,
+              "TN": 0,
+              "FP": 7,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E5a": {
+              "eventos": 23,
+              "TP": 0,
+              "TN": 0,
+              "FP": 23,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E5b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "NORMAL": {
+              "eventos": 190,
+              "TP": 0,
+              "TN": 188,
+              "FP": 2,
+              "FN": 0,
+              "f1": 0.0
+            }
+          },
+          "texto_conocido": {
+            "eventos": 329,
+            "metricas": {
+              "TP": 68,
+              "TN": 199,
+              "FP_penalizado": 53,
+              "FN_penalizado": 9,
+              "f1_binario": 0.6868686868686869
+            }
+          },
+          "texto_nuevo": {
+            "eventos": 32,
+            "metricas": {
+              "TP": 0,
+              "TN": 16,
+              "FP_penalizado": 16,
+              "FN_penalizado": 0,
+              "f1_binario": 0.0
+            }
+          }
+        }
+      },
+      "f1_media": 0.6355140186915887,
+      "f1_desviacion": 0.0
+    },
+    "gemma3:1b": {
+      "corridas": {
+        "1": {
+          "eventos": 361,
+          "TP": 77,
+          "TN": 14,
+          "FP_penalizado": 270,
+          "FN_penalizado": 0,
+          "precision": 0.2219020172910663,
+          "recall": 1.0,
+          "f1_binario": 0.3632075471698113,
+          "invalidos": 0,
+          "matriz_niveles": {
+            "INFO": {
+              "INFO": 14,
+              "BAJO": 0,
+              "MEDIO": 120,
+              "ALTO": 150,
+              "INVALIDA": 0
+            },
+            "BAJO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "MEDIO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 14,
+              "ALTO": 49,
+              "INVALIDA": 0
+            },
+            "ALTO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 14,
+              "INVALIDA": 0
+            }
+          },
+          "por_nivel": {
+            "INFO": {
+              "soporte": 284,
+              "precision": 1.0,
+              "recall": 0.04929577464788732,
+              "f1": 0.09395973154362416
+            },
+            "BAJO": {
+              "soporte": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": 0.0
+            },
+            "MEDIO": {
+              "soporte": 63,
+              "precision": 0.1044776119402985,
+              "recall": 0.2222222222222222,
+              "f1": 0.14213197969543148
+            },
+            "ALTO": {
+              "soporte": 14,
+              "precision": 0.06572769953051644,
+              "recall": 1.0,
+              "f1": 0.12334801762114538
+            }
+          },
+          "macro_f1_clases_presentes": 0.11981324295340035,
+          "tiempo_medio_s": 5.097196759263141,
+          "tiempo_p95_s": 6.438727540999935,
+          "por_fuente": {
+            "E1": {
+              "eventos": 22,
+              "TP": 0,
+              "TN": 0,
+              "FP": 22,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E2": {
+              "eventos": 35,
+              "TP": 35,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E3a": {
+              "eventos": 14,
+              "TP": 0,
+              "TN": 0,
+              "FP": 14,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E3b_ataque": {
+              "eventos": 28,
+              "TP": 28,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E3b_control": {
+              "eventos": 28,
+              "TP": 0,
+              "TN": 0,
+              "FP": 28,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4a": {
+              "eventos": 7,
+              "TP": 0,
+              "TN": 0,
+              "FP": 7,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E5a": {
+              "eventos": 23,
+              "TP": 0,
+              "TN": 0,
+              "FP": 23,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E5b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "NORMAL": {
+              "eventos": 190,
+              "TP": 0,
+              "TN": 14,
+              "FP": 176,
+              "FN": 0,
+              "f1": 0.0
+            }
+          },
+          "texto_conocido": {
+            "eventos": 329,
+            "metricas": {
+              "TP": 77,
+              "TN": 14,
+              "FP_penalizado": 238,
+              "FN_penalizado": 0,
+              "f1_binario": 0.39285714285714285
+            }
+          },
+          "texto_nuevo": {
+            "eventos": 32,
+            "metricas": {
+              "TP": 0,
+              "TN": 0,
+              "FP_penalizado": 32,
+              "FN_penalizado": 0,
+              "f1_binario": 0.0
+            }
+          }
+        },
+        "2": {
+          "eventos": 361,
+          "TP": 77,
+          "TN": 14,
+          "FP_penalizado": 270,
+          "FN_penalizado": 0,
+          "precision": 0.2219020172910663,
+          "recall": 1.0,
+          "f1_binario": 0.3632075471698113,
+          "invalidos": 0,
+          "matriz_niveles": {
+            "INFO": {
+              "INFO": 14,
+              "BAJO": 0,
+              "MEDIO": 120,
+              "ALTO": 150,
+              "INVALIDA": 0
+            },
+            "BAJO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "MEDIO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 14,
+              "ALTO": 49,
+              "INVALIDA": 0
+            },
+            "ALTO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 14,
+              "INVALIDA": 0
+            }
+          },
+          "por_nivel": {
+            "INFO": {
+              "soporte": 284,
+              "precision": 1.0,
+              "recall": 0.04929577464788732,
+              "f1": 0.09395973154362416
+            },
+            "BAJO": {
+              "soporte": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": 0.0
+            },
+            "MEDIO": {
+              "soporte": 63,
+              "precision": 0.1044776119402985,
+              "recall": 0.2222222222222222,
+              "f1": 0.14213197969543148
+            },
+            "ALTO": {
+              "soporte": 14,
+              "precision": 0.06572769953051644,
+              "recall": 1.0,
+              "f1": 0.12334801762114538
+            }
+          },
+          "macro_f1_clases_presentes": 0.11981324295340035,
+          "tiempo_medio_s": 5.097375782534632,
+          "tiempo_p95_s": 6.493964942000275,
+          "por_fuente": {
+            "E1": {
+              "eventos": 22,
+              "TP": 0,
+              "TN": 0,
+              "FP": 22,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E2": {
+              "eventos": 35,
+              "TP": 35,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E3a": {
+              "eventos": 14,
+              "TP": 0,
+              "TN": 0,
+              "FP": 14,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E3b_ataque": {
+              "eventos": 28,
+              "TP": 28,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E3b_control": {
+              "eventos": 28,
+              "TP": 0,
+              "TN": 0,
+              "FP": 28,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4a": {
+              "eventos": 7,
+              "TP": 0,
+              "TN": 0,
+              "FP": 7,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E5a": {
+              "eventos": 23,
+              "TP": 0,
+              "TN": 0,
+              "FP": 23,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E5b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "NORMAL": {
+              "eventos": 190,
+              "TP": 0,
+              "TN": 14,
+              "FP": 176,
+              "FN": 0,
+              "f1": 0.0
+            }
+          },
+          "texto_conocido": {
+            "eventos": 329,
+            "metricas": {
+              "TP": 77,
+              "TN": 14,
+              "FP_penalizado": 238,
+              "FN_penalizado": 0,
+              "f1_binario": 0.39285714285714285
+            }
+          },
+          "texto_nuevo": {
+            "eventos": 32,
+            "metricas": {
+              "TP": 0,
+              "TN": 0,
+              "FP_penalizado": 32,
+              "FN_penalizado": 0,
+              "f1_binario": 0.0
+            }
+          }
+        },
+        "3": {
+          "eventos": 361,
+          "TP": 77,
+          "TN": 14,
+          "FP_penalizado": 270,
+          "FN_penalizado": 0,
+          "precision": 0.2219020172910663,
+          "recall": 1.0,
+          "f1_binario": 0.3632075471698113,
+          "invalidos": 0,
+          "matriz_niveles": {
+            "INFO": {
+              "INFO": 14,
+              "BAJO": 0,
+              "MEDIO": 120,
+              "ALTO": 150,
+              "INVALIDA": 0
+            },
+            "BAJO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 0,
+              "INVALIDA": 0
+            },
+            "MEDIO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 14,
+              "ALTO": 49,
+              "INVALIDA": 0
+            },
+            "ALTO": {
+              "INFO": 0,
+              "BAJO": 0,
+              "MEDIO": 0,
+              "ALTO": 14,
+              "INVALIDA": 0
+            }
+          },
+          "por_nivel": {
+            "INFO": {
+              "soporte": 284,
+              "precision": 1.0,
+              "recall": 0.04929577464788732,
+              "f1": 0.09395973154362416
+            },
+            "BAJO": {
+              "soporte": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": 0.0
+            },
+            "MEDIO": {
+              "soporte": 63,
+              "precision": 0.1044776119402985,
+              "recall": 0.2222222222222222,
+              "f1": 0.14213197969543148
+            },
+            "ALTO": {
+              "soporte": 14,
+              "precision": 0.06572769953051644,
+              "recall": 1.0,
+              "f1": 0.12334801762114538
+            }
+          },
+          "macro_f1_clases_presentes": 0.11981324295340035,
+          "tiempo_medio_s": 5.082688493734034,
+          "tiempo_p95_s": 6.456428622999738,
+          "por_fuente": {
+            "E1": {
+              "eventos": 22,
+              "TP": 0,
+              "TN": 0,
+              "FP": 22,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E2": {
+              "eventos": 35,
+              "TP": 35,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E3a": {
+              "eventos": 14,
+              "TP": 0,
+              "TN": 0,
+              "FP": 14,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E3b_ataque": {
+              "eventos": 28,
+              "TP": 28,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E3b_control": {
+              "eventos": 28,
+              "TP": 0,
+              "TN": 0,
+              "FP": 28,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4a": {
+              "eventos": 7,
+              "TP": 0,
+              "TN": 0,
+              "FP": 7,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E4b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "E5a": {
+              "eventos": 23,
+              "TP": 0,
+              "TN": 0,
+              "FP": 23,
+              "FN": 0,
+              "f1": 0.0
+            },
+            "E5b": {
+              "eventos": 7,
+              "TP": 7,
+              "TN": 0,
+              "FP": 0,
+              "FN": 0,
+              "f1": 1.0
+            },
+            "NORMAL": {
+              "eventos": 190,
+              "TP": 0,
+              "TN": 14,
+              "FP": 176,
+              "FN": 0,
+              "f1": 0.0
+            }
+          },
+          "texto_conocido": {
+            "eventos": 329,
+            "metricas": {
+              "TP": 77,
+              "TN": 14,
+              "FP_penalizado": 238,
+              "FN_penalizado": 0,
+              "f1_binario": 0.39285714285714285
+            }
+          },
+          "texto_nuevo": {
+            "eventos": 32,
+            "metricas": {
+              "TP": 0,
+              "TN": 0,
+              "FP_penalizado": 32,
+              "FN_penalizado": 0,
+              "f1_binario": 0.0
+            }
+          }
+        }
+      },
+      "f1_media": 0.3632075471698113,
+      "f1_desviacion": 0.0
+    }
+  }
+}

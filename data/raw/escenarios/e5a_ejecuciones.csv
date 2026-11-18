@@ -1,0 +1,11 @@
+repeticion,variante,tipo_consulta,usuario_consultado,comando,inicio_utc,fin_utc,exit_code,resultado_esperado,naturaleza,amenaza,nivel
+1,E5a,passwd_estado,gonzalo520,sudo -n /usr/bin/passwd -S gonzalo520,2026-11-15T20:10:06.525982+00:00,2026-11-15T20:10:06.538980+00:00,0,1,consulta_administrativa,0,INFO
+2,E5a,chage_caducidad,root,sudo -n /usr/bin/chage -l root,2026-11-15T20:10:08.545424+00:00,2026-11-15T20:10:08.557913+00:00,0,1,consulta_administrativa,0,INFO
+3,E5a,passwd_estado,daemon,sudo -n /usr/bin/passwd -S daemon,2026-11-15T20:10:12.199017+00:00,2026-11-15T20:10:12.210439+00:00,0,1,consulta_administrativa,0,INFO
+4,E5a,chage_caducidad,gonzalo520,sudo -n /usr/bin/chage -l gonzalo520,2026-11-15T20:10:13.210654+00:00,2026-11-15T20:10:13.222365+00:00,0,1,consulta_administrativa,0,INFO
+5,E5a,passwd_estado,root,sudo -n /usr/bin/passwd -S root,2026-11-15T20:10:17.425863+00:00,2026-11-15T20:10:17.437443+00:00,0,1,consulta_administrativa,0,INFO
+6,E5a,chage_caducidad,daemon,sudo -n /usr/bin/chage -l daemon,2026-11-15T20:10:20.040401+00:00,2026-11-15T20:10:20.051444+00:00,0,1,consulta_administrativa,0,INFO
+7,E5a,passwd_estado,gonzalo520,sudo -n /usr/bin/passwd -S gonzalo520,2026-11-15T20:10:23.306224+00:00,2026-11-15T20:10:23.317117+00:00,0,1,consulta_administrativa,0,INFO
+8,E5a,chage_caducidad,root,sudo -n /usr/bin/chage -l root,2026-11-15T20:10:24.766303+00:00,2026-11-15T20:10:24.778397+00:00,0,1,consulta_administrativa,0,INFO
+9,E5a,passwd_estado,daemon,sudo -n /usr/bin/passwd -S daemon,2026-11-15T20:10:29.062329+00:00,2026-11-15T20:10:29.073834+00:00,0,1,consulta_administrativa,0,INFO
+10,E5a,chage_caducidad,gonzalo520,sudo -n /usr/bin/chage -l gonzalo520,2026-11-15T20:10:33.767305+00:00,2026-11-15T20:10:33.778928+00:00,0,1,consulta_administrativa,0,INFO

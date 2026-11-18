@@ -1,0 +1,30 @@
+{
+  "estado": "BORRADOR_NO_VALIDADO",
+  "total": 519,
+  "niveles_propuestos": {
+    "INFO": 409,
+    "MEDIO": 90,
+    "ALTO": 20
+  },
+  "tipos_propuestos": {
+    "actividad_normal": 409,
+    "autenticacion": 40,
+    "reconocimiento": 10,
+    "anomalia_privilegios": 40,
+    "modificacion_configuracion": 10,
+    "acceso_sensible": 10
+  },
+  "pendientes_revision": [
+    {
+      "event_id": "1794002138.650:1055",
+      "fuente": "NORMAL",
+      "motivo": "Terminacion anomala ANOM_ABEND. Revisar contexto antes de confirmar INFO."
+    },
+    {
+      "event_id": "1794005005.558:2042",
+      "fuente": "NORMAL",
+      "motivo": "Terminacion anomala ANOM_ABEND. Revisar contexto antes de confirmar INFO."
+    }
+  ],
+  "cantidad_pendientes": 2
+}

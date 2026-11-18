@@ -1,0 +1,58 @@
+{
+  "total_eventos": 519,
+  "semilla": 42,
+  "repeticiones_dev": [
+    1,
+    2,
+    3
+  ],
+  "repeticiones_test": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "porcentaje_ruido_dev_solicitado": 30,
+  "ruido_dev": 82,
+  "ruido_test": 190,
+  "conjuntos": {
+    "desarrollo": {
+      "eventos": 158,
+      "clase_0": 125,
+      "clase_1": 33,
+      "por_fuente": {
+        "NORMAL": 82,
+        "E1": 10,
+        "E2": 15,
+        "E3a": 6,
+        "E3b_ataque": 12,
+        "E3b_control": 12,
+        "E4a": 3,
+        "E4b": 3,
+        "E5a": 12,
+        "E5b": 3
+      }
+    },
+    "prueba": {
+      "eventos": 361,
+      "clase_0": 284,
+      "clase_1": 77,
+      "por_fuente": {
+        "NORMAL": 190,
+        "E1": 22,
+        "E2": 35,
+        "E3a": 14,
+        "E3b_ataque": 28,
+        "E3b_control": 28,
+        "E4a": 7,
+        "E4b": 7,
+        "E5a": 23,
+        "E5b": 7
+      }
+    }
+  },
+  "separacion": "por_repeticion_en_escenarios_y_por_evento_en_ruido"
+}
