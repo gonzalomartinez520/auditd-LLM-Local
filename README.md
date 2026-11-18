@@ -119,7 +119,6 @@ auditd-LLM-Local/
 
 La estructura representa los principales componentes utilizados durante el experimento.
 
-**Importante:** algunos archivos y directorios de datos pueden estar excluidos del repositorio mediante `.gitignore`, por lo que no necesariamente estarán disponibles después de clonarlo.
 
 ---
 
