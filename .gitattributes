@@ -1,0 +1,5 @@
+# Mantener los scripts Python con finales de linea LF
+*.py text eol=lf
+
+# Scripts de shell
+*.sh text eol=lf
