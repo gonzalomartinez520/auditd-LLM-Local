@@ -140,11 +140,9 @@ Es necesario contar con:
 ### 4.2. Clonar el repositorio
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/gonzalomartinez520/auditd-LLM-Local.git
 cd auditd-LLM-Local
 ```
-
-Reemplazar `<URL_DEL_REPOSITORIO>` por la dirección correspondiente en GitHub.
 
 ### 4.3. Instalar dependencias del sistema
 
